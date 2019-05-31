@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your name : " />
+
+        <EditText
+            android:id="@+id/ename"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Enter your name : "
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your marks : " />
+
+        <EditText
+            android:id="@+id/emarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your marks : "
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Enter your Roll No:" />
+
+        <EditText
+            android:id="@+id/erollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Roll No:"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/skyblue"
+            android:text="Add"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/skyblue"
+            android:text="Delete"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/skyblue"
+            android:text="Modify"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/skyblue"
+            android:text="View"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/skyblue"
+            android:text="View All"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/skyblue"
+            android:text="About"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
+
+    </GridLayout>
+</LinearLayout>
